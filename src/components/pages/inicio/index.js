@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import {
-    NavLink,
-    NavItem
-} from "reactstrap";
+import './style.css';
+
 
 export default class Inicio extends Component {
     render() {
