@@ -11,7 +11,7 @@ import Contactanos from "./components/pages/contactanos/";
 class App extends Component {
 render () {
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router>
     <div>
     <Navbar />
     <Switch>
