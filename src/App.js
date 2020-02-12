@@ -5,19 +5,23 @@ import './App.css';
 import Navbar from "./components/navbar/";
 import Inicio from "./components/pages/inicio/";
 import Servicios from "./components/pages/servicios/"
+import Vestimenta from "./components/pages/vestimenta/"
+import SobreNosotros from "./components/pages/SobreNosotros/";
 import Contactanos from "./components/pages/contactanos/";
 
 
 class App extends Component {
 render () {
   return (
-    <Router path={process.env.PUBLIC_URL + '/'}>
+    <Router>
     <div>
     <Navbar />
     <Switch>
-    <Route exact path={process.env.PUBLIC_URL + "/"} component={Inicio} />
-    <Route path={process.env.PUBLIC_URL + "/servicios"} component={Servicios} />
-    <Route path={process.env.PUBLIC_URL + "/contactanos"} component={Contactanos} />
+    <Route exact path="/" component={Inicio} />
+    <Route path="/servicios" component={Servicios} />
+    <Route path="/vestimenta" component={Vestimenta} />
+    <Route path="/sobrenosotros" component={SobreNosotros} />
+    <Route path="/contactanos" component={Contactanos} />
     </Switch>
 
     </div>
