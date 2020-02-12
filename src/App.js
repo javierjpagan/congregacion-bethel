@@ -18,7 +18,7 @@ render () {
     <div>
     <Navbar />
     <Switch>
-    <Route exact path="/" component={Inicio} />
+    <Route exact path="/inicio" component={Inicio} />
     <Route path="/servicios" component={Servicios} />
     <Route path="/vestimenta" component={Vestimenta} />
     <Route path="/sobrenosotros" component={SobreNosotros} />
