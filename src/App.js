@@ -11,11 +11,11 @@ import Contactanos from "./components/pages/contactanos/";
 class App extends Component {
 render () {
   return (
-    <Router>
+    <Router basename={window.location.pathname || ''}>
     <div>
     <Navbar />
     <Switch>
-    <Route exact path="/" component={Inicio} />
+    <Route exact path="/inicio" component={Inicio} />
     <Route path="/servicios" component={Servicios} />
     <Route path="/contactanos" component={Contactanos} />
     </Switch>
