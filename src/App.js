@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect, Link, HashRouter } from "react-router-dom";
 import './App.css';
 
 import Navbar from "./components/navbar/";
@@ -11,11 +11,11 @@ import Contactanos from "./components/pages/contactanos/";
 class App extends Component {
 render () {
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router path={process.env.PUBLIC_URL + '/'}>
     <div>
     <Navbar />
     <Switch>
-    <Route exact path="/inicio" component={Inicio} />
+    <Route exact path="/" component={Inicio} />
     <Route path="/servicios" component={Servicios} />
     <Route path="/contactanos" component={Contactanos} />
     </Switch>
