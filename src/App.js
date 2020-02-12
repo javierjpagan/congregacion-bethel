@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect, Link, HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Switch, Route, Redirect, Link, HashRouter } from "react-router-dom";
 import './App.css';
 
 import Navbar from "./components/navbar/";
@@ -13,7 +14,7 @@ import Contactanos from "./components/pages/contactanos/";
 class App extends Component {
 render () {
   return (
-    <Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div>
     <Navbar />
     <Switch>
@@ -25,7 +26,7 @@ render () {
     </Switch>
 
     </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 }
