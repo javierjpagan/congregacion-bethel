@@ -13,7 +13,7 @@ class Navbar extends Component {
                             <li><a href="/servicios">Servicios & Horarios</a></li>
                             <li><a href="/vestimenta">Codigo de Vestimenta</a></li>
                             <li><a href="/donativos">Donativos</a></li>
-                            <li><a href="/sobrenosotros">¿Quienes somos?</a></li>
+                            <li><a href="/sobrenosotros">Sobre Nosotros</a></li>
                             <li><a href="/contactanos">Contáctanos</a></li>
                         </div>
                         </div>

@@ -31,8 +31,8 @@ class SobreNosotros extends Component {
         return(
 
 
-            <div className="site-blocks-cover" data-aos="fade" data-stellar-background-ratio="0.5">
-                           <div className="row align-items-center justify-content-center">
+            <div>
+                           {/* <div className="row align-items-center justify-content-center">
                 <div className="col-md-7 text-center" data-aos="fade">
                 <div className="container">
                   <h1><strong>¿Quienes somos?</strong></h1>
@@ -40,11 +40,11 @@ class SobreNosotros extends Component {
 
               </div>
             </div>
-          </div> 
-          <Container className="Sobre Nosotros">
+          </div>  */}
+          <Container className="Sobre Nosotros faq-container text-center">
           <Row>
             <Col>
-              <h1>Sobre Nosotros</h1>
+              <h1><strong>Sobre Nosotros</strong></h1>
               <br></br>
               <br></br>
             </Col>

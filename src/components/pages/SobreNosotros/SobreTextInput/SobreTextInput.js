@@ -1,6 +1,4 @@
-import SobreTextInput from './SobreTextInput/SobreTextInput';
-
-const SobreText = {
+const SobreTextInput = {
 
     sobre1: {
         sobreheader: "¿Quiénes Somos?",
@@ -61,4 +59,4 @@ const SobreText = {
 
 }
 
-export default SobreText;
+export default SobreTextInput;
