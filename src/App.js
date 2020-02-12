@@ -15,9 +15,9 @@ render () {
     <div>
     <Navbar />
     <Switch>
-    <Route exact path="/" component={Inicio} />
-    <Route path="/servicios" component={Servicios} />
-    <Route path="/contactanos" component={Contactanos} />
+    <Route exact path={process.env.PUBLIC_URL + "/"} component={Inicio} />
+    <Route path={process.env.PUBLIC_URL + "/servicios"} component={Servicios} />
+    <Route path={process.env.PUBLIC_URL + "/contactanos"} component={Contactanos} />
     </Switch>
 
     </div>
