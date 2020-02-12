@@ -23,6 +23,7 @@ render () {
     <Route path="/vestimenta" component={Vestimenta} />
     <Route path="/sobrenosotros" component={SobreNosotros} />
     <Route path="/contactanos" component={Contactanos} />
+    <Route component={Inicio}/>
     </Switch>
 
     </div>
