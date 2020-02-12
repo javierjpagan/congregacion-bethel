@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/congregacion-bethel/precache-manifest.5ba2b1c0e6762d7951d968e09acb0131.js"
+  "/congregacion-bethel/precache-manifest.75c63f5b052d456124b40e6252c8efd8.js"
 );
 
 self.addEventListener('message', (event) => {
