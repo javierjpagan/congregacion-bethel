@@ -45,14 +45,6 @@ const SobreText = {
         sobreheader: "Revelación Profética de las Fiestas",
         sobretext: "Plaid flexitarian shoreditch, flannel elit mixtape trust fund single-origin coffee reprehenderit meh tbh cronut magna disrupt. Hammock seitan hexagon magna irony dolore aesthetic. Glossier distillery af microdosing, hell of tempor in reprehenderit chambray tilde kale chips portland palo santo lorem. Godard swag vape tattooed fashion axe. Taiyaki tumblr est ennui, kitsch fugiat tote bag chicharrones iPhone polaroid meditation franzen quinoa in. Normcore lyft tumeric, 8-bit wayfarers echo park knausgaard typewriter."
     },
-    sobre11: {
-        sobreheader: "Fiestas Menores / Tradicionales",
-        sobretext: "Plaid flexitarian shoreditch, flannel elit mixtape trust fund single-origin coffee reprehenderit meh tbh cronut magna disrupt. Hammock seitan hexagon magna irony dolore aesthetic. Glossier distillery af microdosing, hell of tempor in reprehenderit chambray tilde kale chips portland palo santo lorem. Godard swag vape tattooed fashion axe. Taiyaki tumblr est ennui, kitsch fugiat tote bag chicharrones iPhone polaroid meditation franzen quinoa in. Normcore lyft tumeric, 8-bit wayfarers echo park knausgaard typewriter."
-    },
-    sobre12: {
-        sobreheader: "Recursos",
-        sobretext: "Plaid flexitarian shoreditch, flannel elit mixtape trust fund single-origin coffee reprehenderit meh tbh cronut magna disrupt. Hammock seitan hexagon magna irony dolore aesthetic. Glossier distillery af microdosing, hell of tempor in reprehenderit chambray tilde kale chips portland palo santo lorem. Godard swag vape tattooed fashion axe. Taiyaki tumblr est ennui, kitsch fugiat tote bag chicharrones iPhone polaroid meditation franzen quinoa in. Normcore lyft tumeric, 8-bit wayfarers echo park knausgaard typewriter."
-    },
     sobre13: {
         sobreheader: "¿Qué significa el vocabulario hebreo que usamos con frecuencia?",
         sobretext: "Plaid flexitarian shoreditch, flannel elit mixtape trust fund single-origin coffee reprehenderit meh tbh cronut magna disrupt. Hammock seitan hexagon magna irony dolore aesthetic. Glossier distillery af microdosing, hell of tempor in reprehenderit chambray tilde kale chips portland palo santo lorem. Godard swag vape tattooed fashion axe. Taiyaki tumblr est ennui, kitsch fugiat tote bag chicharrones iPhone polaroid meditation franzen quinoa in. Normcore lyft tumeric, 8-bit wayfarers echo park knausgaard typewriter."
