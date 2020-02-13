@@ -1,8 +1,19 @@
-const SobreTextInput = {
+import React, { Component } from "react";
+import SobreTextInput from './SobreTextInput/SobreTextInput';
+import Sobre1 from './SobreTextInput/Sobre/sobre1'
+
+class SobreTestInput extends Component {
+
+state = {
+    sobreadd: sobre1
+};
+
+const SobreText = {
 
     sobre1: {
         sobreheader: "¿Quiénes Somos?",
-        sobretext: "Lorem ipsum dolor amet direct trade lo-fi sriracha street art farm-to-table mumblecore quinoa keytar typewriter adipisicing hammock venmo hella. Sartorial marfa vinyl salvia. Scenester truffaut pinterest, four loko ugh schlitz intelligentsia vinyl. Dolor typewriter paleo la croix chartreuse meditation before they sold out ethical unicorn mustache helvetica +1 next level pinterest. Next level reprehenderit af asymmetrical, sunt id sartorial woke."
+        sobretext: <div>{Object.keys(this.state.sobreadd).map(key => <Sobre1 key={key} sobreadd={this.state.sobreadd[key]}/>)}</div>,
+        // sobretext: {sobre1.map(sobre => <div>{sobre.name}</div>)},
     }, 
 
     sobre2: {
@@ -56,6 +67,8 @@ const SobreTextInput = {
         sobreheader: "¿Qué significa el vocabulario hebreo que usamos con frecuencia?",
         sobretext: "Plaid flexitarian shoreditch, flannel elit mixtape trust fund single-origin coffee reprehenderit meh tbh cronut magna disrupt. Hammock seitan hexagon magna irony dolore aesthetic. Glossier distillery af microdosing, hell of tempor in reprehenderit chambray tilde kale chips portland palo santo lorem. Godard swag vape tattooed fashion axe. Taiyaki tumblr est ennui, kitsch fugiat tote bag chicharrones iPhone polaroid meditation franzen quinoa in. Normcore lyft tumeric, 8-bit wayfarers echo park knausgaard typewriter."
     },
+
+}
 
 }
 

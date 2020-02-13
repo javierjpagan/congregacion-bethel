@@ -8,26 +8,21 @@ class Vestimenta extends Component {
 
 
 
-<div className="ContBody">
-            <div className="row align-items-center justify-content-center">
-            <div className="col-md-7 text-center" data-aos="fade">
-            <div className="ContHead">
-<h2><strong>CONTÁCTANOS</strong></h2>
+<div className="VestBody">
+<div className="VestHead">
+<h2 className="VestTitle"><strong>CÓDIGO DE VESTIMENTA</strong></h2>
 </div>
-            </div>
+         
             
 
-<h2>Dirección Postal: HC 1 Box 29030 PMB 602, Caguas, PR 00725-8900</h2> 
+<h2>Damas</h2> 
 
-<h2>{`Dirección Física: Carretera #1 Km. 27.0 (Frente al Parque de Soccer), 
-Sector Quebrada Arenas, Bo. Río Cañas, Caguas, Puerto Rico`}</h2> 
+<h2>Vestido o blusa con mangas, encubridora (sin descotes de frente o espalda; ni transparentes; ni muy cortas; ni rajadas que revelen la piel del torso).  Vestido, blusa o falda no muy ceñida al cuerpo, ni rajada.  Ruedo del vestido o falda a la rodilla.  Uso de enagua o refajo cuando la tela del vestido, falda o blusa sea clara y se “marque” la ropa interior.  Maquillaje modesto.  Cubierta de dama en la cabeza que cubra, incluso, la coronilla.  De acuerdo con lo correspondiente, también aplica el código de vestimenta a las niñas.</h2> 
 
-<h2>Conexión con Google Map para que obtengan la dirección para llegar</h2>  
+<h2>Caballeros</h2> 
 
-<h2>Teléfono: (787) 486-3507</h2>   
-
-<h2>Email: kehilah_beth_el@yahoo.com</h2> 
-                        </div>
+<h2>Pantalón largo y no ceñido al cuerpo.  Camisas encubridoras, con mangas, abotonadas y no muy ceñidas al cuerpo.  Camisetas con mangas y de un largo que cubra el torso.  Cubierta de varón en la cabeza que cubra, inclusive, la coronilla.  De acuerdo con lo correspondiente, también aplica el código de vestimenta a los niños.</h2>
+                        
                         </div>
 
         )

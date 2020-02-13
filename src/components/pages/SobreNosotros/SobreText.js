@@ -1,10 +1,9 @@
-import SobreTextInput from './SobreTextInput/SobreTextInput';
-
 const SobreText = {
 
     sobre1: {
         sobreheader: "¿Quiénes Somos?",
-        sobretext: "Lorem ipsum dolor amet direct trade lo-fi sriracha street art farm-to-table mumblecore quinoa keytar typewriter adipisicing hammock venmo hella. Sartorial marfa vinyl salvia. Scenester truffaut pinterest, four loko ugh schlitz intelligentsia vinyl. Dolor typewriter paleo la croix chartreuse meditation before they sold out ethical unicorn mustache helvetica +1 next level pinterest. Next level reprehenderit af asymmetrical, sunt id sartorial woke."
+        sobretext: "Hello Hi",
+        // sobretext: {sobre1.map(sobre => <div>{sobre.name}</div>)},
     }, 
 
     sobre2: {
