@@ -10,8 +10,10 @@ export default class Inicio extends Component {
                 <div className="col-md-7 text-center" data-aos="fade">
              <img className="logo-home" src="/images/logo-bethel.jpg"></img>
             <div className="container">
+            <div className="InicioHead">
                   <h1><strong>CONGREGACIÓN MERSIÁNICA BETH-EL</strong></h1>
                   <h1>(Kehilah Mashiajit Beth-El)</h1>
+                  </div>
                 </div>
               </div>
             </div>
