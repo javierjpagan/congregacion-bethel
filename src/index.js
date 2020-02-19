@@ -8,6 +8,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// Only BrowserRouter is being used!
 import { BrowserRouter as Router, HashRouter, Route } from 'react-router-dom';
 
 ReactDOM.render(

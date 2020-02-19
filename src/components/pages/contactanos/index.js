@@ -34,4 +34,5 @@ Sector Quebrada Arenas, Bo. Río Cañas, Caguas, Puerto Rico`}</h2>
     }
 }
 
+// why in parentheses?
 export default (Contactanos);

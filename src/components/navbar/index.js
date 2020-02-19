@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './style.css';
 
+// these should be <Link> instead of <a> tags
 class Navbar extends Component {
     render() {
         return(

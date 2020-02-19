@@ -8,6 +8,7 @@ state = {
     sobreadd: sobre1
 };
 
+// this content seems to also be elsewhere?
 const SobreText = {
 
     sobre1: {

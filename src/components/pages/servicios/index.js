@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './style.css';
 
-
+// <container> is not a semantic HTML tag
 export default class Servicios extends Component {
     render() {
         return(

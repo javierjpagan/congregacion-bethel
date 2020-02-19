@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './style.css';
+// could be sorted alphabetically
 import {
     CardBody,
     CardImg,

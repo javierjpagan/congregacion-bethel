@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+// you can condense these 2 imports into one, remove unused imports
 import { BrowserRouter as Router} from "react-router-dom";
 import { Switch, Route, Redirect, Link, HashRouter } from "react-router-dom";
 import './App.css';
@@ -11,7 +13,8 @@ import Recursos from "./components/pages/recursos/"
 import SobreNosotros from "./components/pages/SobreNosotros/";
 import Contactanos from "./components/pages/contactanos/";
 
-
+// is the commented out process.env.PUBLIC_URL necessary?
+// I actually think putting the routes here is better than in index.js
 class App extends Component {
 render () {
   return (
