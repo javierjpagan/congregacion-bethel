@@ -15,8 +15,8 @@ import Contactanos from "./components/pages/contactanos/";
 class App extends Component {
 render () {
   return (
-    // <Router path={process.env.PUBLIC_URL + '/'}>
-    <HashRouter>
+    <HashRouter path={process.env.PUBLIC_URL + '/'}>
+     {/* <HashRouter> */}
     <div>
     <Navbar />
     <Switch>
