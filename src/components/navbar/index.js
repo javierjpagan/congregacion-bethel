@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 import './style.css';
 
 class Navbar extends Component {
@@ -8,13 +9,13 @@ class Navbar extends Component {
             <div className="row align-items-center justify-content-center">
             <div className="col-md-9 text-center" data-aos="fade">
             <div className="main-navbar">
-                            <li><a href="/">Inicio</a></li>
-                            <li><a href="/servicios">Servicios & Horarios</a></li>
-                            <li><a href="/vestimenta">Código de Vestimenta</a></li>
-                            {/* <li><a href="/donativos">Donativos</a></li> */}
-                            <li><a href="/recursos">Recursos</a></li>
-                            <li><a href="/sobrenosotros">Sobre Nosotros</a></li>
-                            <li><a href="/contactanos">Contáctanos</a></li>
+                            <li><Link to="/">Inicio</Link></li>
+                            <li><Link to="/servicios">Servicios & Horarios</Link></li>
+                            <li><Link to="/vestimenta">Código de Vestimenta</Link></li>
+                            {/* <li><Link to="/donativos">Donativos</Link></li> */}
+                            <li><Link to="/recursos">Recursos</Link></li>
+                            <li><Link to="/sobrenosotros">Sobre Nosotros</Link></li>
+                            <li><Link to="/contactanos">Contáctanos</Link></li>
                         </div>
                         </div>
                         </div>
