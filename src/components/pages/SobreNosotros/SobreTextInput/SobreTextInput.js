@@ -73,3 +73,49 @@ const SobreText = {
 }
 
 export default SobreTextInput;
+
+import React from "react";
+// You can define components to be used with certain props
+const specialComponent = props => (
+  <div>
+    <h1>{props.header}</h1>
+    <h3>
+      This is a special component that I can use with data that defines the
+      right props
+    </h3>
+    <section>{props.text}</section>
+  </div>
+);
+// I'm using an array of objects because the data is ordered and doesn't need to be accessed by a key.
+const data = [
+  {
+    id: "sobre1",
+    header: "Nuestra misión",
+    text:
+      "Pabst yr swag, woke blog dolore officia aesthetic. Brunch artisan dolore meggings selvage tbh selfies id. Ut cold-pressed pariatur art party fanny pack salvia. Proident tbh tousled fugiat sunt. Hell of waistcoat cloud bread poke taiyaki trust fund."
+  },
+  {
+    id: "sobre2",
+    props: {
+      header: "Future Islands",
+      text: "Stuff. Great stuff."
+    },
+    renderComponent: specialComponent
+  }
+];
+const renderData = () =>
+  data.map(entry => {
+    const { header, id, props, renderComponent, text } = entry;
+    if (!renderComponent) {
+      // this is a default text component
+      return (
+        <Collapsible key={id}>
+          <h1>{header}</h1>
+          <section>{text}</section>
+        </Collapsible>
+      );
+    }
+    return (
+      <Collapsible key={id}>{renderComponent({ id, ...props })}</Collapsible>
+    );
+  });
