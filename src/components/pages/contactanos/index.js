@@ -80,10 +80,6 @@ Sector Quebrada Arenas, Bo. Río Cañas, Caguas, Puerto Rico`}</h2>
           </div>
 
 
-        <div className="row align-items-center justify-content-center">
-<h2>Conexión con Google Map para que obtengan la dirección para llegar</h2>  
-
-
 <div className="row align-items-center justify-content-center">
 <h2>Teléfono: (787) 486-3507</h2>   
 </div>
@@ -91,8 +87,7 @@ Sector Quebrada Arenas, Bo. Río Cañas, Caguas, Puerto Rico`}</h2>
 <div className="row align-items-center justify-content-center">
 <h2>Email: kehilah_beth_el@yahoo.com</h2> 
 </div>
-                        </div>
-                        </div>
+                                                </div>
 
         )
     }
