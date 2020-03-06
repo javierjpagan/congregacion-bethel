@@ -12,7 +12,9 @@ class sobreRevelacion extends Component {
          
             
 
-<h2>Sobre Nosotros Collapsible Test (Testing)</h2> 
+<p>Las Fiestas encierran el Plan Profético de Redención del Eterno para Israel y las Naciones.  A través del Mashiaj (Mesías) cada una de Fiestas tiene su cumplimiento profético.</p>
+
+<p>TABLE PLACEHOLDER</p>
                       
                         </div>
 
