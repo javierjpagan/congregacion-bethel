@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1af09d7957eaf6f46aae38a2034c80b",
+    "revision": "f2d069bd6150323383bac4c8c269baa5",
     "url": "/congregacion-bethel/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/congregacion-bethel/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "2b0b4f88d1198f9378d5",
+    "revision": "abbff0c7f08cd0485681",
     "url": "/congregacion-bethel/static/css/main.1aae2345.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/congregacion-bethel/static/js/2.f245787c.chunk.js.LICENSE"
   },
   {
-    "revision": "2b0b4f88d1198f9378d5",
-    "url": "/congregacion-bethel/static/js/main.1bf867ea.chunk.js"
+    "revision": "abbff0c7f08cd0485681",
+    "url": "/congregacion-bethel/static/js/main.b3f8eb0f.chunk.js"
   },
   {
     "revision": "070de3cb36b537842d85",
