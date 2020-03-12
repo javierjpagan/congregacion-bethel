@@ -26,6 +26,12 @@
     .Collapsible__contentInner p:last-child {
         margin-bottom: 0; }
 
+.sobreItem {
+    text-align: left;
+    white-space: pre-wrap;
+    /* font-family: 'FontAwesome'; */
+}
+
 .Collapsible__trigger {
     display: block;
     font-weight: 400;
@@ -57,3 +63,5 @@
     .Collapsible__trigger.is-disabled {
         opacity: 0.5;
         background-color: grey; }
+
+

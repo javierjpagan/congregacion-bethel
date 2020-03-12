@@ -18,7 +18,8 @@ class SobreHeader extends React.Component {
 
         return (
             <Collapsible trigger={sobreheader}>
-                <p>{sobretext}</p>
+                <p> </p>
+                <p class="sobreItem">{sobretext}</p>
             </Collapsible>
         );
     }
