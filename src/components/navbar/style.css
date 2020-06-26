@@ -15,3 +15,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.path_4 {
+	top: 0px !important;
+	position: absolute !important;
+	left: 0px;
+	width: 1920px;
+	height: 70px;
+	background-color: #03216B;
+	background-size:cover;
+}

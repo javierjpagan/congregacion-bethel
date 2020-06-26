@@ -8,17 +8,18 @@ class Navbar extends Component {
 
             <div className="row align-items-center justify-content-center">
             <div className="col-md-9 text-center" data-aos="fade">
+            <div className="path_4">
             <div className="main-navbar">
-                            <li><Link to="/">Inicio</Link></li>
-                            <li><Link to="/servicios">Servicios & Horarios</Link></li>
-                            <li><Link to="/vestimenta">Código de Vestimenta</Link></li>
-                            {/* <li><Link to="/donativos">Donativos</Link></li> */}
-                            <li><Link to="/recursos">Recursos</Link></li>
-                            <li><Link to="/sobrenosotros">Sobre Nosotros</Link></li>
-                            <li><Link to="/contactanos">Contáctanos</Link></li>
+                            <li className="inicio"><Link to="/">INICIO</Link></li>
+                            <li className="servicios___horarios"><Link to="/servicios">SERVICIOS & HORARIOS</Link></li>
+                            <li className="recursos"><Link to="/recursos">RECURSOS</Link></li>
+                            <li className="sobre_nosotros"><Link to="/sobrenosotros">SOBRE NOSOTROS</Link></li>
+                            <li className="cont_ctanos"><Link to="/contactanos">CONTÁCTANOS</Link></li>
                         </div>
                         </div>
                         </div>
+                        </div>
+
 
 
 
